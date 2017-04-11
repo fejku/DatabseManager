@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+   <children>
+      <TextField layoutX="151.0" layoutY="25.0" />
+      <Label layoutX="52.0" layoutY="29.0" text="Host" />
+      <Label layoutX="51.0" layoutY="69.0" text="Port" />
+      <Label layoutX="38.0" layoutY="112.0" text="Username" />
+      <Label layoutX="48.0" layoutY="160.0" text="Password" />
+      <CheckBox layoutX="48.0" layoutY="200.0" mnemonicParsing="false" text="Make copy" />
+      <ComboBox layoutX="166.0" layoutY="228.0" prefWidth="150.0" />
+      <Label layoutX="48.0" layoutY="284.0" text="Database name" />
+      <Label layoutX="48.0" layoutY="325.0" text="Database file" />
+      <Label layoutX="48.0" layoutY="232.0" text="Encoding" />
+      <Button layoutX="534.0" layoutY="361.0" mnemonicParsing="false" text="Button" />
+      <TextField layoutX="141.0" layoutY="65.0" />
+      <TextField layoutX="141.0" layoutY="100.0" />
+      <TextField layoutX="151.0" layoutY="148.0" />
+      <TextField layoutX="151.0" layoutY="280.0" />
+      <TextField layoutX="151.0" layoutY="321.0" />
+   </children>
+</AnchorPane>
